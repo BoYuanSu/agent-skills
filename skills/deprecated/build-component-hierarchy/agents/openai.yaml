@@ -1,0 +1,4 @@
+interface:
+  display_name: "建立元件 hierarchy"
+  short_description: "Turn requirements into clear component trees."
+  default_prompt: "Use $build-component-hierarchy to design a production-ready component hierarchy for this feature."

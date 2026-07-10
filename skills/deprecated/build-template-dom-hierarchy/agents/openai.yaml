@@ -1,0 +1,4 @@
+interface:
+  display_name: "建立 Template DOM 階層"
+  short_description: "Generate Vue template DOM hierarchy from UI mockups."
+  default_prompt: "Use $build-template-dom-hierarchy to analyze a UI screenshot and fill only the template DOM hierarchy in the provided Vue SFC while keeping script and style unchanged."

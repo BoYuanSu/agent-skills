@@ -1,0 +1,6 @@
+interface:
+  display_name: "Create API Request"
+  short_description: "Scaffold fetch/axios API requests, then refine types."
+  default_prompt: "Use $create-query-mutation to add fetch/axios request scaffolds first, then update request/response types from example data."
+
+

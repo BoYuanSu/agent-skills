@@ -1,4 +1,0 @@
-interface:
-  display_name: "Develop API Layer"
-  short_description: "Generate and refine frontend API request functions and TypeScript types."
-  default_prompt: "Use $develop-api-layer to create frontend API request functions, define input/output parameter types, and refine them with example data."

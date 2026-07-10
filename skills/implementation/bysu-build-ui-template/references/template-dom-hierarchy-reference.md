@@ -15,7 +15,7 @@
 
 - 是否專注於「單一元件」任務（不拆分新元件，不擴展至其他元件）。
 - 是否提供清楚的畫面視覺輸入或描述。
-- Vue SFC 是否已由上一階段 (`spec-ui-hierarchy`) 定義好 Props 與 View Model 契約。
+- Vue SFC 是否已由上一階段 (`bysu-spec-ui-hierarchy`) 定義好 Props 與 View Model 契約。
 - Vue SFC 命名與結構是否依據 `AGENTS.md` 的 `Vue SFC Code Style（Single Source）` 執行。
 
 ## Style Class Skeleton Heuristics

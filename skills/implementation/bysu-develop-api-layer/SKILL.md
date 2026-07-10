@@ -1,5 +1,5 @@
 ---
-name: develop-api-layer
+name: bysu-develop-api-layer
 description: 適用於前端 API 請求層 (Request Layer) 的開發。此技能引導 Agent 建立前端 API 呼叫函式、定義輸入參數與輸出回應型別，並能依據範例資料 (Example Data) 補齊與收斂 TypeScript 型別定義。
 ---
 

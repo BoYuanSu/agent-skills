@@ -1,18 +1,18 @@
 ---
-name: build-ui-template
+name: bysu-build-ui-template
 description: 根據畫面設計、線框圖或描述，配合已定義 Props (或 View Model) 契約的 Vue SFC，實作單一元件的 <template> DOM 階層與 <style scoped> nested class 骨架，使其能以 Mock 數據獨立正確渲染。
 ---
 
-# UI 優先 - 單一元件 HTML/CSS 骨架 (build-ui-template)
+# UI 優先 - 單一元件 HTML/CSS 骨架 (bysu-build-ui-template)
 
 ## 概覽
-本技能專注於「兩端先行，延後造橋」中 **「UI 先行 (UI-First)」** 的具體單一元件開發階段。在元件的 Props 或 View Model 契約已定義（由 `spec-ui-hierarchy` 產出）的前提下，將畫面設計轉化為語意化的 HTML (`<template>`) 與樣式隔離的 nested class 骨架 (`<style>`)。
+本技能專注於「兩端先行，延後造橋」中 **「UI 先行 (UI-First)」** 的具體單一元件開發階段。在元件的 Props 或 View Model 契約已定義（由 `bysu-spec-ui-hierarchy` 產出）的前提下，將畫面設計轉化為語意化的 HTML (`<template>`) 與樣式隔離的 nested class 骨架 (`<style>`)。
 
 在此階段，元件的 `<script setup>` 僅消費 mock 數據或傳入的 props，**完全不涉及 API 請求與任何資料轉換/轉譯邏輯**，以確保 UI 呈現與後端完全解耦。
 
 ## 單獨執行模式 (Skill-Only)
 
-- 當使用者明確呼叫 `build-ui-template` 時，預設只執行本技能。
+- 當使用者明確呼叫 `bysu-build-ui-template` 時，預設只執行本技能。
 - 本技能僅處理 **「單一元件」** 的 `<template>` 與 `<style>` 骨架，不擴展到其他元件、不拆分新元件、不涉及跨檔案串接。
 - 未被明確要求前，**禁止新增真實行為實作、API 資料流邏輯、外部 API 請求、或轉譯邏輯**。
 - 若需求超出本技能邊界，先完成本技能輸出，再以一句話提出可選的下一步。

@@ -1,16 +1,16 @@
 ---
-name: spec-ui-hierarchy
+name: bysu-spec-ui-hierarchy
 description: 根據功能需求與 UI 設計，進行 UI 優先的元件拆分，並定義最理想、最易渲染的 View Model 數據契約，產出符合規範的 Vue SFC 與 Composable 骨架。當需要規劃前端 UI 結構、定義元件間職責邊界，並建立 Mock Data 結構時使用。
 ---
 
-# UI 優先 - 元件樹與理想資料契約設計 (spec-ui-hierarchy)
+# UI 優先 - 元件樹與理想資料契約設計 (bysu-spec-ui-hierarchy)
 
 ## 概覽
 本技能旨在落實「兩端先行，延後造橋」的 **「UI 先行 (UI-First)」** 理念。在開發初期完全解耦後端 API 結構，專注於 UI 呈現與互動需求。逆推設計出對 UI 渲染最友善、最直覺的資料結構（即 **View Model / Mock Data**），並以此結構建立元件階層樹與 Mock 資料契約，輸出 Vue SFC 及 Composable 骨架。
 
 ## 單獨執行模式 (Skill-Only)
 
-- 當使用者明確呼叫 `spec-ui-hierarchy` 時，預設僅執行本技能之分析與交付物。
+- 當使用者明確呼叫 `bysu-spec-ui-hierarchy` 時，預設僅執行本技能之分析與交付物。
 - **採兩階段交付 (Review Gate) 決策流程**：
   - **Phase 1 (Review Required)**：僅輸出 `Hierarchy Tree` (Mermaid `graph TD`) 與 `View Model Mock Data (JSON)` 供使用者審查。必須以一句話明確詢問（例如：「請確認此元件樹與 View Model 結構是否可進入 Phase 2 元件骨架輸出？」）。
   - **Phase 2 (After Approval / Direct Mode)**：當使用者確認或在批次/非互動（或明確指示直接產出）模式下，輸出完整內容（包含骨架檔案與實作計畫）。

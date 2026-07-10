@@ -6,7 +6,7 @@
 
 ## 1. 兩端原始型別定義 (兩端先行)
 
-### UI 呈現層預期的最理想 View Model (由 spec-ui-hierarchy 定義)
+### UI 呈現層預期的最理想 View Model (由 bysu-spec-ui-hierarchy 定義)
 UI 需要的資料最為扁平、易於渲染，包含產品列表與統計卡片：
 
 ```typescript
@@ -35,7 +35,7 @@ type ProductDirectoryViewModel = {
 export type { ProductViewModel, SummaryStatsViewModel, ProductDirectoryViewModel };
 ```
 
-### 資料請求層取得的 API Raw Response (由 develop-api-layer 定義)
+### 資料請求層取得的 API Raw Response (由 bysu-develop-api-layer 定義)
 後端 API 回傳的原始資料通常是未格式化的數值、Unix 毫秒時間戳，且結構沒有依據 UI 看板特別區分：
 
 ```typescript

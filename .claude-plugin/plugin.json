@@ -1,0 +1,9 @@
+{
+  "name": "boyuansu-skills",
+  "skills": [
+    "./skills/implementation/bysu-build-ui-template",
+    "./skills/implementation/bysu-develop-api-layer",
+    "./skills/implementation/bysu-normalize-data-flow",
+    "./skills/planning/bysu-spec-ui-hierarchy"
+  ]
+}

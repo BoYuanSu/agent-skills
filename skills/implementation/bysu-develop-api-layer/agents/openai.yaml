@@ -1,4 +1,4 @@
 interface:
   display_name: "Develop API Layer"
-  short_description: "Generate and refine frontend API request functions and TypeScript types."
-  default_prompt: "Use $bysu-develop-api-layer to create frontend API request functions, define input/output parameter types, and refine them with example data."
+  short_description: "Generate and refine raw frontend API request functions and TS types without premature normalization."
+  default_prompt: "Use $bysu-develop-api-layer to implement raw API request functions (Skeleton-first) and define/refine TS types based on example JSON (Example-driven)."

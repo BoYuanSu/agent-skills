@@ -42,7 +42,7 @@ const getUser = async (params: GetUserParams) => {
   if (!response.ok) {
     throw new Error('Network response was not ok');
   }
-  const data = await response.json() as GetUserResponse;
+  const data: GetUserResponse = await response.json();
   return data;
 };
 

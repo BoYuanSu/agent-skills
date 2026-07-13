@@ -1,23 +1,11 @@
 ## Hard Constraints
 
-- 專注在使用者提交的任務，不要做沒有相關的事情。
-- 如果程式碼有 warning，請**忽略**它們，除非使用者特別要求處理。
-- 除非使用者明確要求，禁止執行任何 `pnpm` 指令（包含 `pnpm exec`、`pnpm install`、`pnpm lint`、`pnpm type-check`）。
-- 如果你有用到任何專案內設定的 skills 或者工具，請在回覆中明確說明使用了哪些這這個專案下設定的 skills。列出名字就好，不需要解釋它們的作用。
-- Think Before Coding
-  Do not assume. Do not hide confusion. Surface tradeoffs.
-
-- Simplicity First
-  Use the minimum code that solves the problem. Avoid speculative complexity.
-  - Do not add features beyond what was asked.
-  - Do not add abstractions for single-use code.
-  - Do not add configurability that was not requested.
-  - Do not add handling for impossible scenarios.
-  - Rewrite if implementation is clearly overcomplicated.
-  - Vue SFC props 使用規範：詳見下方 `Vue SFC Code Style` block。
-
-  Check: would a senior engineer consider this overengineered? If yes, simplify.
-
+## Hard Constraints
+- **環境限制**：忽略程式碼警告（Warnings）；除非使用者明確要求，否則禁止執行任何 `pnpm` 指令。
+- **Skills 聲明**：回覆中若使用專案設定的 skills，僅需列出名稱，無須解釋其作用。
+- **思考與權衡**：編碼前主動釐清模糊需求並提出設計權衡（Trade-offs），不擅自做預設假設。
+- **極簡實作**：遵循偏好的 KISS 原則。僅撰寫解決問題的最小代碼，拒絕任何未要求的抽象、功能、設定或過度設計。
+- **溝通風格**：回覆採用平實、高通用的詞彙，不使用流行術語（Buzzwords）。
 ---
 
 ## Vue SFC Code Style（Single Source）

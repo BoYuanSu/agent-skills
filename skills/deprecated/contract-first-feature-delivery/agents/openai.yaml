@@ -1,0 +1,4 @@
+interface:
+  display_name: "契約優先交付法"
+  short_description: "以五步法規劃功能：成功條件、契約、雙軌、整合、驗證。"
+  default_prompt: "使用 $contract-first-feature-delivery，先定成功條件與契約，再安排雙軌實作與最小整合驗證。"

@@ -4,3 +4,8 @@
 
 並且透過這個專案累積開發經驗並更新相關 skills，讓這些 skills 應用專案時，透過更新此專案 skills 達到統一管理散落在各專案的 skill 資訊，讓開發更加有效率。
 
+## Installation
+
+```bash
+npx skills@latest add boyuansu/agent-skills
+```

@@ -7,7 +7,7 @@ description: 在 Web App 功能開發的第 2 階段，將已確認的需求轉�
 
 ## 前置資料
 
-讀取 `specs/{FeatureName}/input-review.md`、`sources/requirements/` 及必要的 UI 素材。若互動範圍仍有阻斷問題，先回到 `$bysu-review-feature-inputs`。
+讀取相對於 `docs/` 目錄的 `input-review.md`、`requirements/` 及必要的 UI 素材。若互動範圍仍有阻斷問題，先回到 `$bysu-review-feature-inputs`。
 
 ## 執行方式
 
@@ -19,7 +19,7 @@ description: 在 Web App 功能開發的第 2 階段，將已確認的需求轉�
 
 ## 產出
 
-建立或更新 `specs/{FeatureName}/use-cases.md`。每個 use case 應有穩定、簡短的識別名稱，並以 Gherkin 風格情境呈現，例如：
+建立或更新與 `api/`、`requirements/`、`ui/` 同層的 `use-cases.md`。每個 use case 應有穩定、簡短的識別名稱，並以 Gherkin 風格情境呈現，例如：
 
 ```gherkin
 Scenario: 使用者成功載入資料

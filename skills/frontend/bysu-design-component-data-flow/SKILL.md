@@ -7,7 +7,7 @@ description: 在 Web App 功能開發的第 3 階段，結合 Component Hierarch
 
 ## 前置資料
 
-讀取 `specs/{FeatureName}/component-hierarchy.md` 與 `specs/{FeatureName}/use-cases.md`。兩者若不完整或使用不同的畫面範圍，先回到對應階段修正。
+讀取與 `docs/` 同層的 `component-hierarchy.md` 與 `use-cases.md`。兩者若不完整或使用不同的畫面範圍，先回到對應階段修正。
 
 ## 執行方式
 
@@ -20,7 +20,7 @@ description: 在 Web App 功能開發的第 3 階段，結合 Component Hierarch
 
 ## 產出
 
-建立或更新 `specs/{FeatureName}/data-flow.md`，內容包括：
+建立或更新與 `api/`、`requirements/`、`ui/` 同層的 `data-flow.md`，內容包括：
 
 - 每項資料或狀態的擁有元件與理由。
 - 向下資料與向上事件的對照。

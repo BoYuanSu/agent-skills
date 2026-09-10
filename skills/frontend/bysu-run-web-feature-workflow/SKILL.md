@@ -9,7 +9,7 @@ description: 依 UI 設計稿、需求文件與 API 文件規劃、續作或完�
 
 ## 判斷工作範圍
 
-1. 確認功能名稱與範圍。功能資料夾使用 PascalCase：`specs/{FeatureName}/`。
+1. 先確認使用者提供的 `docs/` 目錄與其相對資料夾結構；設計檔應落在該目錄下與 `api/`、`requirements/`、`ui/` 同層的位置。
 2. 找出本次可用的 UI 設計稿或 Wireframe、需求文件與 API 文件。
 3. 檢查既有設計檔與程式碼，不以「檔案存在」直接視為該階段已完成；確認內容仍符合目前素材。
 4. 若使用者只要求一個階段，呼叫該階段 skill，完成後停止。
@@ -42,15 +42,17 @@ description: 依 UI 設計稿、需求文件與 API 文件規劃、續作或完�
 完整流程完成時應有：
 
 ```text
-specs/{FeatureName}/
-├── sources/
-│   ├── ui/
-│   ├── requirements/
-│   └── api/
+docs/
+├── api/
+├── requirements/
+├── ui/
 ├── input-review.md
 ├── component-hierarchy.md
 ├── use-cases.md
-└── data-flow.md
+├── data-flow.md
+└── ...
 ```
+
+若需要按功能分群，仍可在 `docs/` 之下建立相對子資料夾並保持同層結構；核心是相對於使用者提供的 `docs/` 目錄，而不是固定的 `specs/` 位置。
 
 第 4–6 階段的成果放在實際功能程式碼與測試旁，不額外產生交付說明。

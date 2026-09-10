@@ -7,7 +7,7 @@ description: 在 Web App 功能開發的第 0 階段，對照 UI 設計稿或 Wi
 
 ## 目標
 
-建立 `specs/{FeatureName}/input-review.md`，保留本次功能的素材判讀與決策紀錄。原始素材放在同一功能的 `sources/ui/`、`sources/requirements/`、`sources/api/`。
+在使用者提供的 `docs/` 目錄中建立或更新與 `api/`、`requirements/`、`ui/` 同層的 `input-review.md`，保留本次功能的素材判讀與決策紀錄。原始素材應放在該 `docs/` 目錄下的相對位置，不另建立固定的 `specs/` 根資料夾。
 
 ## 執行方式
 

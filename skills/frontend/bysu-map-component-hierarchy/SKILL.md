@@ -7,7 +7,7 @@ description: 在 Web App 功能開發的第 1 階段，將已確認的 UI 設計
 
 ## 前置資料
 
-讀取 `specs/{FeatureName}/input-review.md` 與 `sources/ui/` 內相關素材。若畫面範圍仍有阻斷問題，先回到 `$bysu-review-feature-inputs`。
+讀取同層的 `input-review.md` 與 `ui/` 相關素材；路徑應相對於使用者提供的 `docs/` 目錄，而不是固定的 `specs/{FeatureName}`。若畫面範圍仍有阻斷問題，先回到 `$bysu-review-feature-inputs`。
 
 ## 執行方式
 
@@ -18,7 +18,7 @@ description: 在 Web App 功能開發的第 1 階段，將已確認的 UI 設計
 
 ## 產出
 
-建立或更新 `specs/{FeatureName}/component-hierarchy.md`，內容包括：
+建立或更新與 `api/`、`requirements/`、`ui/` 同層的 `component-hierarchy.md`，內容包括：
 
 - 涵蓋的畫面與必要說明。
 - Mermaid 元件樹。
